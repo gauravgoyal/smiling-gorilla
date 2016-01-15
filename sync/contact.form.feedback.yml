@@ -1,0 +1,12 @@
+uuid: efc9ecd0-84ad-45fa-9300-aa6d7936c06b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - gaurav.goyal@innoraft.com
+reply: ''
+weight: 0
