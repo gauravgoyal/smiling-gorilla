@@ -1,0 +1,9 @@
+uuid: b792de9c-56ff-42df-a100-f340c834c805
+langcode: en
+status: true
+dependencies: {  }
+name: Section
+vid: vocab_section
+description: 'Used to define different sections'
+hierarchy: 0
+weight: 0
