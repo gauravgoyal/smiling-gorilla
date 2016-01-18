@@ -23,4 +23,12 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_ct_designation: true
+  field_ct_experience: true
+  field_ct_expire_date: true
+  field_ct_job_type: true
+  field_ct_location: true
+  field_ct_salary: true
+  field_ct_section: true
+  field_ct_skills: true

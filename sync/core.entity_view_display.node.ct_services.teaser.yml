@@ -23,4 +23,7 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_ct_our_work: true
+  field_ct_section: true
+  field_image: true
