@@ -1,18 +1,16 @@
-uuid: 466d696a-559c-42c1-a400-f56a862a8300
+uuid: 2d2a3853-a1e0-4e98-bd00-a1fc4d41d4c1
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.ct_contributions
   module:
     - text
-_core:
-  default_config_hash: rUop-8b6hvxxDYbv-KobTfNIBNbPY9qOPl8f6kBNSpw
-id: node.page.body
+id: node.ct_contributions.body
 field_name: body
 entity_type: node
-bundle: page
+bundle: ct_contributions
 label: Description
 description: ''
 required: false

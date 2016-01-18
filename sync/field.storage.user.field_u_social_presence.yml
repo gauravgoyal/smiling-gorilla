@@ -1,0 +1,19 @@
+uuid: 1ff00fed-cc60-407f-be09-9b10d7959ef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - user
+id: user.field_u_social_presence
+field_name: field_u_social_presence
+entity_type: user
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

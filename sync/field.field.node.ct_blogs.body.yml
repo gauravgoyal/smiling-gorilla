@@ -1,19 +1,17 @@
-uuid: 466d696a-559c-42c1-a400-f56a862a8300
+uuid: c6db758b-cb8b-42c8-8c00-a793e770dd2f
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.ct_blogs
   module:
     - text
-_core:
-  default_config_hash: rUop-8b6hvxxDYbv-KobTfNIBNbPY9qOPl8f6kBNSpw
-id: node.page.body
+id: node.ct_blogs.body
 field_name: body
 entity_type: node
-bundle: page
-label: Description
+bundle: ct_blogs
+label: Blog
 description: ''
 required: false
 translatable: true

@@ -1,0 +1,26 @@
+uuid: 64481142-747e-4028-9b08-8ad7f847afad
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_testimonial.body
+    - node.type.ct_testimonial
+  module:
+    - text
+    - user
+id: node.ct_testimonial.teaser
+targetEntityType: node
+bundle: ct_testimonial
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

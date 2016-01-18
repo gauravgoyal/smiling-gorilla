@@ -1,0 +1,19 @@
+uuid: 8b824f74-4a40-4626-ab27-395b1aec4cdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_form_contact_us
+    - field.storage.contact_message.field_cf_subject
+id: contact_message.contact_form_contact_us.field_cf_subject
+field_name: field_cf_subject
+entity_type: contact_message
+bundle: contact_form_contact_us
+label: Subject
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

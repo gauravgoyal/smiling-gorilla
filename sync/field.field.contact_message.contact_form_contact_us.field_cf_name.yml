@@ -1,0 +1,19 @@
+uuid: e2ab2e09-ee47-437e-8237-55a6f02c1020
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_form_contact_us
+    - field.storage.contact_message.field_cf_name
+id: contact_message.contact_form_contact_us.field_cf_name
+field_name: field_cf_name
+entity_type: contact_message
+bundle: contact_form_contact_us
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

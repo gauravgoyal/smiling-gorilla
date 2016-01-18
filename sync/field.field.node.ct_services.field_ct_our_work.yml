@@ -1,0 +1,27 @@
+uuid: 770f2d3e-6e36-497b-983f-639f2ae9cc02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_our_work
+    - node.type.ct_our_work
+    - node.type.ct_services
+id: node.ct_services.field_ct_our_work
+field_name: field_ct_our_work
+entity_type: node
+bundle: ct_services
+label: 'Our work'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ct_our_work: ct_our_work
+    sort:
+      field: title
+      direction: ASC
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: 9208acbd-3f37-43fd-a400-c6147fe04afe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ct_our_work
+field_name: field_ct_our_work
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

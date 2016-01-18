@@ -1,0 +1,27 @@
+uuid: 7c57864e-b3bf-4b08-8f03-3ebc2e7860cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_services
+    - node.type.ct_blogs
+    - node.type.ct_services
+id: node.ct_blogs.field_ct_services
+field_name: field_ct_services
+entity_type: node
+bundle: ct_blogs
+label: Services
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ct_services: ct_services
+    sort:
+      field: title
+      direction: ASC
+field_type: entity_reference

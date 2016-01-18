@@ -1,0 +1,19 @@
+uuid: f142e38d-4d53-46ed-a445-69b21ecfd7e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_form_contact_us
+    - field.storage.contact_message.field_cf_query
+id: contact_message.contact_form_contact_us.field_cf_query
+field_name: field_cf_query
+entity_type: contact_message
+bundle: contact_form_contact_us
+label: Query
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

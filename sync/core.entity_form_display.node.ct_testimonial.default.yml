@@ -1,0 +1,88 @@
+uuid: 8d5ecb35-851d-497b-9105-0554766ae5ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_testimonial.body
+    - field.field.node.ct_testimonial.field_ct_our_work
+    - field.field.node.ct_testimonial.field_ct_section
+    - field.field.node.ct_testimonial.field_image
+    - node.type.ct_testimonial
+  module:
+    - image
+    - path
+    - text
+id: node.ct_testimonial.default
+targetEntityType: node
+bundle: ct_testimonial
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_ct_our_work:
+    weight: 33
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_ct_section:
+    weight: 34
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_image:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

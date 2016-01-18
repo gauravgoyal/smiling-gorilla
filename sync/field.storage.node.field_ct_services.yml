@@ -1,0 +1,19 @@
+uuid: cc2e6f87-5b13-4644-9c07-0775a85831ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ct_services
+field_name: field_ct_services
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

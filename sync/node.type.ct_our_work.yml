@@ -1,0 +1,18 @@
+uuid: 5e57c369-f797-47f9-ab00-aca613b002e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Our Work'
+type: ct_our_work
+description: 'Add work portfolio'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

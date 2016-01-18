@@ -1,0 +1,18 @@
+uuid: 64477ca3-8c6c-4a2d-9e00-ebb9e5e66939
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Blogs
+type: ct_blogs
+description: 'For Adding Blogs'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

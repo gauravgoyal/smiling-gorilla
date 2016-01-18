@@ -1,0 +1,9 @@
+uuid: 5e6afa4e-973d-40ee-9105-5ac6e4440ae1
+langcode: en
+status: true
+dependencies: {  }
+name: Location
+vid: vocab_location
+description: ''
+hierarchy: 0
+weight: 0

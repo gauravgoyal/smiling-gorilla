@@ -1,0 +1,26 @@
+uuid: 32effea8-771c-48df-8900-c5f9985c2982
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_contributions.body
+    - node.type.ct_contributions
+  module:
+    - text
+    - user
+id: node.ct_contributions.teaser
+targetEntityType: node
+bundle: ct_contributions
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

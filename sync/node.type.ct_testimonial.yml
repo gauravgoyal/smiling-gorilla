@@ -1,0 +1,18 @@
+uuid: 5f856e8e-17ba-4a1f-9d63-99916f1dbd9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Testimonial
+type: ct_testimonial
+description: 'Add testimonials'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

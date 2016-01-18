@@ -1,0 +1,10 @@
+uuid: 7b8b7a2e-61ec-4b0b-ac00-d5a97acb4445
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form_contact_us
+label: 'Contact Us'
+recipients:
+  - admin@innoraft.com
+reply: "Well hello there, awesome person!\r\n\r\nThanks for contacting us, someone from team will contact you shortly!"
+weight: 0

@@ -1,0 +1,9 @@
+uuid: e7b05ac1-3c96-4972-9400-d3317fd3713c
+langcode: en
+status: true
+dependencies: {  }
+name: Designation
+vid: vocab_designation
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,23 @@
+uuid: 929e6b07-4710-4a34-9916-227a74178a88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_salary
+    - node.type.ct_careers
+id: node.ct_careers.field_ct_salary
+field_name: field_ct_salary
+entity_type: node
+bundle: ct_careers
+label: Salary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

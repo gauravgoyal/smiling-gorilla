@@ -1,18 +1,16 @@
-uuid: 466d696a-559c-42c1-a400-f56a862a8300
+uuid: 0f6288ad-1951-49e8-9b00-a265c9638990
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.page
+    - node.type.ct_services
   module:
     - text
-_core:
-  default_config_hash: rUop-8b6hvxxDYbv-KobTfNIBNbPY9qOPl8f6kBNSpw
-id: node.page.body
+id: node.ct_services.body
 field_name: body
 entity_type: node
-bundle: page
+bundle: ct_services
 label: Description
 description: ''
 required: false

@@ -1,0 +1,27 @@
+uuid: 75035b0c-d6c0-49d4-8a04-4d85b335b0b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_section
+    - node.type.ct_our_work
+    - taxonomy.vocabulary.vocab_section
+id: node.ct_our_work.field_ct_section
+field_name: field_ct_section
+entity_type: node
+bundle: ct_our_work
+label: Section
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocab_section: vocab_section
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

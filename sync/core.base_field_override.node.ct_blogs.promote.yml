@@ -1,0 +1,22 @@
+uuid: c48d7245-a261-4d16-9c56-86a972d870a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_blogs
+id: node.ct_blogs.promote
+field_name: promote
+entity_type: node
+bundle: ct_blogs
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

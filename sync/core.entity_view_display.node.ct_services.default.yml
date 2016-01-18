@@ -1,0 +1,50 @@
+uuid: ea906df0-c7bd-401a-a600-cd21a9b8b632
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_services.body
+    - field.field.node.ct_services.field_ct_our_work
+    - field.field.node.ct_services.field_ct_section
+    - field.field.node.ct_services.field_image
+    - node.type.ct_services
+  module:
+    - image
+    - text
+    - user
+id: node.ct_services.default
+targetEntityType: node
+bundle: ct_services
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_ct_our_work:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_ct_section:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden: {  }

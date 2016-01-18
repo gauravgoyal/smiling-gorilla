@@ -1,0 +1,9 @@
+uuid: 7c4731ff-9913-40b4-8d00-e4f48597bf79
+langcode: en
+status: true
+dependencies: {  }
+name: Skills
+vid: vocab_skills
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,28 @@
+uuid: 9e21e9e7-0429-4b19-a835-53b8019612f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_contributor
+    - node.type.ct_contributions
+id: node.ct_contributions.field_ct_contributor
+field_name: field_ct_contributor
+entity_type: node
+bundle: ct_contributions
+label: Contributor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: name
+      direction: ASC
+field_type: entity_reference

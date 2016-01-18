@@ -1,0 +1,18 @@
+uuid: c42df1ff-9fe8-4ce2-9740-64fc01e8b7aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_careers
+id: node.ct_careers.title
+field_name: title
+entity_type: node
+bundle: ct_careers
+label: 'Job Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

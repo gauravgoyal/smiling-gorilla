@@ -1,0 +1,26 @@
+uuid: 57714839-c3bf-459a-8a00-cae977e193b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_services.body
+    - node.type.ct_services
+  module:
+    - text
+    - user
+id: node.ct_services.teaser
+targetEntityType: node
+bundle: ct_services
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

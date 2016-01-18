@@ -1,0 +1,23 @@
+uuid: 7a723e6e-be44-499e-8247-713ba8f3f9f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_u_social_presence
+  module:
+    - link
+    - user
+id: user.user.field_u_social_presence
+field_name: field_u_social_presence
+entity_type: user
+bundle: user
+label: 'Social Presence'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

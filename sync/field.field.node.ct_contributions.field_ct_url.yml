@@ -1,0 +1,23 @@
+uuid: 2acb0149-e02f-4982-b33e-62b4917332f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_url
+    - node.type.ct_contributions
+  module:
+    - link
+id: node.ct_contributions.field_ct_url
+field_name: field_ct_url
+entity_type: node
+bundle: ct_contributions
+label: URL
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

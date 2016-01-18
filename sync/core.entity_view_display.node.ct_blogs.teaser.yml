@@ -1,0 +1,26 @@
+uuid: fe8148a3-e39f-4a6f-ae00-b9c7bfe4cf91
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ct_blogs.body
+    - node.type.ct_blogs
+  module:
+    - text
+    - user
+id: node.ct_blogs.teaser
+targetEntityType: node
+bundle: ct_blogs
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

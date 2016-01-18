@@ -1,0 +1,9 @@
+uuid: b5ad5f0e-b63c-4bc6-9600-d6c0fa47765e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Type'
+vid: vocab_job_type
+description: ''
+hierarchy: 0
+weight: 0

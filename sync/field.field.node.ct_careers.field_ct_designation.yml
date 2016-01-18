@@ -1,0 +1,27 @@
+uuid: 51d9b472-7775-4249-8405-5baa7826539b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ct_designation
+    - node.type.ct_careers
+    - taxonomy.vocabulary.vocab_designation
+id: node.ct_careers.field_ct_designation
+field_name: field_ct_designation
+entity_type: node
+bundle: ct_careers
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocab_designation: vocab_designation
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

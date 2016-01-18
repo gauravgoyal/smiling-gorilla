@@ -1,0 +1,63 @@
+uuid: 667ce5ea-7ad2-410a-b74f-797af56bbfcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_our_work.body
+    - field.field.node.ct_our_work.field_ct_section
+    - field.field.node.ct_our_work.field_ct_services
+    - field.field.node.ct_our_work.field_ct_url
+    - field.field.node.ct_our_work.field_image
+    - node.type.ct_our_work
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.ct_our_work.default
+targetEntityType: node
+bundle: ct_our_work
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_ct_section:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_ct_services:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_ct_url:
+    weight: 104
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_image:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden: {  }

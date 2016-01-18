@@ -1,0 +1,22 @@
+uuid: b6d0b43f-b280-4c32-af04-4ea73d3c6fce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_contributions
+id: node.ct_contributions.promote
+field_name: promote
+entity_type: node
+bundle: ct_contributions
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

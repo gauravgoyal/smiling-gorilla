@@ -1,0 +1,18 @@
+uuid: f234f43f-6256-4084-920d-13cd4ac19227
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ct_blogs
+id: node.ct_blogs.title
+field_name: title
+entity_type: node
+bundle: ct_blogs
+label: 'Blogs Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
