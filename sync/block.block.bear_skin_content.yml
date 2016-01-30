@@ -1,0 +1,22 @@
+uuid: ace2146d-e262-4927-a407-7c9dd20e9abd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bear_skin
+_core:
+  default_config_hash: Pm1P9L_FNv6_U6EAD5RECo2KcwAHgbU2DOVb1r6PWX8
+id: bear_skin_content
+theme: bear_skin
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

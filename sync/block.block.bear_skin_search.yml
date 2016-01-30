@@ -1,0 +1,22 @@
+uuid: a722b021-0264-4915-9658-88558fed6f0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bear_skin
+_core:
+  default_config_hash: XtyNN_naHxT0oeqiSmOPc3pB9urhK3qOFNSvfhhGjtY
+id: bear_skin_search
+theme: bear_skin
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

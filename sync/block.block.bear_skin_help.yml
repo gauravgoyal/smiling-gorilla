@@ -1,0 +1,22 @@
+uuid: abb2b9f3-09a9-4010-ac04-4f125400e3ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bear_skin
+_core:
+  default_config_hash: 4NbFdSPES7tct91Rrgm6ZNwJjSxm9THNPRfN8njYwlk
+id: bear_skin_help
+theme: bear_skin
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

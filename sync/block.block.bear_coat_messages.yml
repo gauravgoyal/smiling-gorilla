@@ -1,0 +1,22 @@
+uuid: 1b73168e-68c7-443e-8b08-081137f34917
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bear_coat
+_core:
+  default_config_hash: 6sWRILy645HXPu-BZjPQ9gQb-3D9hFO7mHXuGY0p3hE
+id: bear_coat_messages
+theme: bear_coat
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1e3b67d2-1c7c-4350-9100-df0020f98e80
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bear_coat
+_core:
+  default_config_hash: GzdeSqWzc0qGmGiFuP6_C3r6CjisRdgHwNZYehLLGjg
+id: bear_coat_local_tasks
+theme: bear_coat
+region: '-1'
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

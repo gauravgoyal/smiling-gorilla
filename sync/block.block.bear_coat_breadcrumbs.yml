@@ -1,0 +1,22 @@
+uuid: 9baf6602-0e80-47f8-8800-f7935ed975c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bear_coat
+_core:
+  default_config_hash: RDuqI9fSw0Rt3eoh1zckTFubRsFzVUsqdmrkGdXsqSA
+id: bear_coat_breadcrumbs
+theme: bear_coat
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

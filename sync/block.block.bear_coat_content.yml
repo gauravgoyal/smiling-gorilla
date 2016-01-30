@@ -1,0 +1,22 @@
+uuid: da9ca638-7de6-4254-af09-9cec079b1f31
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bear_coat
+_core:
+  default_config_hash: Pm1P9L_FNv6_U6EAD5RECo2KcwAHgbU2DOVb1r6PWX8
+id: bear_coat_content
+theme: bear_coat
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

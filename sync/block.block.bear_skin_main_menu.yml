@@ -1,0 +1,26 @@
+uuid: a38e8800-04c2-4d58-b306-6b40ba4de732
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bear_skin
+_core:
+  default_config_hash: qG-08PgmdY3zRYgglfc9e__ovbNkZ1IUnjx_ZfkbDwA
+id: bear_skin_main_menu
+theme: bear_skin
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }
