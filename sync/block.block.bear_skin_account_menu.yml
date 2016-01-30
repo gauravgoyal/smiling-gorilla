@@ -1,4 +1,4 @@
-uuid: 67d9aae8-6879-4f8c-b710-16fb34e79066
+uuid: b7613411-0427-4af8-9400-ef031a1849f1
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bear_skin
 _core:
-  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
-id: bartik_account_menu
-theme: bartik
-region: secondary_menu
+  default_config_hash: VBde9qam-PQERGur7aalHXpZBIm-9zHU8sFo5LImUiY
+id: bear_skin_account_menu
+theme: bear_skin
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:account'

@@ -1,16 +1,16 @@
-uuid: 39f5bf69-d1ac-42f6-a100-e8d280c787ed
+uuid: 3581c7d2-9af0-4d15-9702-2c04e66fd730
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bear_skin
 _core:
-  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: bartik_messages
-theme: bartik
-region: highlighted
+  default_config_hash: 6sWRILy645HXPu-BZjPQ9gQb-3D9hFO7mHXuGY0p3hE
+id: bear_skin_messages
+theme: bear_skin
+region: header
 weight: 0
 provider: null
 plugin: system_messages_block

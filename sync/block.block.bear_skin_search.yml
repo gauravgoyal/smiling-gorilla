@@ -1,15 +1,15 @@
-uuid: 24dfd84f-9ea6-4ec8-b100-b9dd77d570d1
+uuid: a722b021-0264-4915-9658-88558fed6f0f
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - bartik
+    - bear_skin
 _core:
-  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
-id: bartik_search
-theme: bartik
+  default_config_hash: XtyNN_naHxT0oeqiSmOPc3pB9urhK3qOFNSvfhhGjtY
+id: bear_skin_search
+theme: bear_skin
 region: sidebar_first
 weight: -1
 provider: null

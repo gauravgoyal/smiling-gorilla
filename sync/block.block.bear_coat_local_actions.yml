@@ -1,0 +1,20 @@
+uuid: a3276e65-8aee-488c-bb12-18ba8ccb0846
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bear_coat
+_core:
+  default_config_hash: 7I-zOq1ufGaugig8b1oSjsc-vG-CnKMNZGCZnJF4j0g
+id: bear_coat_local_actions
+theme: bear_coat
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

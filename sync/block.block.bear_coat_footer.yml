@@ -1,4 +1,4 @@
-uuid: 5a0d2885-0d7e-40c0-8c00-a1c23bed53bf
+uuid: 0404dbcf-8671-4511-864a-744fcb93b16e
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bear_coat
 _core:
-  default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: bartik_footer
-theme: bartik
-region: footer_fifth
-weight: 0
+  default_config_hash: McZ7WMY0v61a0m6fhImd4kxLBEYi0MOC6X9spsQA0Y0
+id: bear_coat_footer
+theme: bear_coat
+region: footer
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

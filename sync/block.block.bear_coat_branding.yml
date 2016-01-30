@@ -1,17 +1,17 @@
-uuid: eb335942-a44f-4d3c-b800-e03fca665855
+uuid: 5934d932-6d1a-4657-8007-07471362afde
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bear_coat
 _core:
-  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: bartik_branding
-theme: bartik
+  default_config_hash: 8D7nxQjiqKlc3AJSv7f3WoMnCk0mdn7R9evAE-QB9_A
+id: bear_coat_branding
+theme: bear_coat
 region: header
-weight: 0
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:
@@ -20,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: true
-  use_site_slogan: true
+  use_site_name: false
+  use_site_slogan: false
 visibility: {  }

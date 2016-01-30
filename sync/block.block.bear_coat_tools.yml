@@ -1,18 +1,18 @@
-uuid: fcc16c82-3833-406c-8a04-4a45c888c00f
+uuid: 346b8d18-3693-4c5c-9f00-e55b2357b06b
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
   module:
     - system
   theme:
-    - bartik
+    - bear_coat
 _core:
-  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: bartik_tools
-theme: bartik
-region: sidebar_first
+  default_config_hash: VBnzEpmW32q2e-3Yx7JNuJ9gkzZQI59jNrF5dayVkhk
+id: bear_coat_tools
+theme: bear_coat
+region: '-1'
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'

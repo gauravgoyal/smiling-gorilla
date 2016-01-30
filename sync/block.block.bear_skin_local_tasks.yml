@@ -1,13 +1,13 @@
-uuid: 919bb585-9b9d-4091-b14d-774fb1a9fcab
+uuid: 4b7be695-2d43-4a82-a500-faf60ab9dde0
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - bear_skin
 _core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
-id: bartik_local_tasks
-theme: bartik
+  default_config_hash: GzdeSqWzc0qGmGiFuP6_C3r6CjisRdgHwNZYehLLGjg
+id: bear_skin_local_tasks
+theme: bear_skin
 region: content
 weight: -40
 provider: null

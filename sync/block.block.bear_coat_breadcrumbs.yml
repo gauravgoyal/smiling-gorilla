@@ -1,17 +1,17 @@
-uuid: 0a867411-1147-4b35-8710-16a451fbc743
+uuid: 9baf6602-0e80-47f8-8800-f7935ed975c0
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - bear_coat
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: bartik_breadcrumbs
-theme: bartik
+  default_config_hash: RDuqI9fSw0Rt3eoh1zckTFubRsFzVUsqdmrkGdXsqSA
+id: bear_coat_breadcrumbs
+theme: bear_coat
 region: breadcrumb
-weight: 0
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:
